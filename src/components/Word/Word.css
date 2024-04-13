@@ -1,0 +1,32 @@
+/* Word.css */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.word {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2rem 0 2rem;
+  font-size: 2.5rem;
+}
+
+.letter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+}
+
+.letter p {
+  text-align: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-right: 20px;
+  width: 30px;
+  border-bottom: 5px solid #000;
+}
